@@ -17,7 +17,7 @@ function App()
         />
         <Post 
             pos={2} 
-            src="./images/space-yoshi.jpg" 
+            src="./images/space-yoshi.JPG" 
             title="Space Yoshi" 
             content="Yoshi flying through space towards Earth from his home-planet, Yoshiland. His ears shoot back when in flight mode." 
         />
