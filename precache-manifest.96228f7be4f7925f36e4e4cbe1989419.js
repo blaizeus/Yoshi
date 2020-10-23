@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc14e20b6d283c9fd9006ae37077b3ea",
+    "revision": "2a66562b271413a87835916a2aecc876",
     "url": "/Yoshi/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Yoshi/static/js/2.48bde05a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9626cd8d42271e2daffd",
-    "url": "/Yoshi/static/js/main.6ac477a0.chunk.js"
+    "revision": "a7da48457769ca933df5",
+    "url": "/Yoshi/static/js/main.00f2d546.chunk.js"
   },
   {
     "revision": "01400ef2591a63896bf1",
