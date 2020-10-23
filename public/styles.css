@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+    background-color: #303841;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    color: #303841;
+    font-family: 'Poppins', sans-serif;
+}
+
+h5{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.header{
+    margin: 30px auto 50px;
+    width: 300px;
+    position: relative;
+    padding: 5px 40px;
+    background-color: #ff5722;
+    color: #eeeeee;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.header p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header h1{
+    letter-spacing: 5px;
+    text-shadow: 2px 2px rgb(238, 44, 141),5px 5px #00adb5;
+}
+
+.card-img{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mb-3{
+    background-color: #303841;
+}
+
+.col-sm-4{
+    padding: 3%;
+    background-color: #ff5722;
+}
+
+.col-sm-8{
+    background-color: #303841;
+    padding: 0;
+    border-color: #303841;
+}
+
+.inner1{
+    height: 100%;
+    width: 98%;
+    margin-left: 2%;
+    background-color: #00adb5;
+    padding: 8% 3% 0;
+}
+
+.inner2{
+    height: 100%;
+    width: 98%;
+    margin-right: 2%;
+    background-color: #00adb5;
+    padding: 8% 3% 0;
+}
+
+
+
+.card-title{
+    margin-bottom: 3.5%;
+}
+
+.container{
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.treats{
+    background-color: #00adb5;
+    padding: 5%;
+    line-height: 3rem;
+}
+
+.donate-btn{
+    margin-top: 2.5%;
+}
+
+.footer{color: white; background-color: #303841; margin: 0 auto 0 auto; padding: 50px; line-height: 3; text-align: center;}
+.footer a{margin: auto 30px auto 30px; text-decoration: none; color:#547575;}
+.footer a:hover{color:white;}
+.footer p{margin-bottom: 0; color:white; font-size: 0.75rem;}

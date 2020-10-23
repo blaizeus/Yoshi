@@ -1,0 +1,1 @@
+<img className="yosh" src="./images/space-yoshi.jpg" alt="yoshi" ></img>
