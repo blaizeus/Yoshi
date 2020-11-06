@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 function App() 
 {
-    return <div>
+    return <div className="everything">
         <Header />
         <Post 
             pos={1} 

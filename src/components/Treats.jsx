@@ -2,8 +2,8 @@ import React from "react";
 
 function Treats() 
 {
-    return <div className="container treats card">
-        <h1>Treats for Yoshi! 🍕😋</h1>
+    return <div className="treats">
+        <h2>Treats for Yoshi! 🍕😋</h2>
         <p>If you like this page or you're a fan of Yoshi, you can click the button below to buy him a treat!</p>
         <form className="donate-btn" action="https://www.paypal.com/donate" method="post" target="_top">
             <input type="hidden" name="hosted_button_id" value="VRHWQD2NLSK3W" />
