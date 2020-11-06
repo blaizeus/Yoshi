@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/Yoshi/static/js/main.00f2d546.chunk.js",
-    "main.js.map": "/Yoshi/static/js/main.00f2d546.chunk.js.map",
+    "main.js": "/Yoshi/static/js/main.3c9ba014.chunk.js",
+    "main.js.map": "/Yoshi/static/js/main.3c9ba014.chunk.js.map",
     "runtime-main.js": "/Yoshi/static/js/runtime-main.737dfa59.js",
     "runtime-main.js.map": "/Yoshi/static/js/runtime-main.737dfa59.js.map",
     "static/js/2.48bde05a.chunk.js": "/Yoshi/static/js/2.48bde05a.chunk.js",
     "static/js/2.48bde05a.chunk.js.map": "/Yoshi/static/js/2.48bde05a.chunk.js.map",
     "index.html": "/Yoshi/index.html",
-    "precache-manifest.a764e4dc92b44d62d3b88c1690672086.js": "/Yoshi/precache-manifest.a764e4dc92b44d62d3b88c1690672086.js",
+    "precache-manifest.ac76eb2d2587cf7281f4ccf61ccaf63e.js": "/Yoshi/precache-manifest.ac76eb2d2587cf7281f4ccf61ccaf63e.js",
     "service-worker.js": "/Yoshi/service-worker.js",
     "static/js/2.48bde05a.chunk.js.LICENSE.txt": "/Yoshi/static/js/2.48bde05a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.737dfa59.js",
     "static/js/2.48bde05a.chunk.js",
-    "static/js/main.00f2d546.chunk.js"
+    "static/js/main.3c9ba014.chunk.js"
   ]
 }

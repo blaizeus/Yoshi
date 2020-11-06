@@ -6,88 +6,149 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-h5{
-    font-weight: 600;
-    font-size: 2.5rem;
+.everything{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
 }
 
 .header{
-    margin: 30px auto 50px;
-    width: 300px;
-    position: relative;
-    padding: 5px 40px;
+    margin: 3% auto 1%;
+    padding: 1% 10%;
     background-color: #ff5722;
     color: #eeeeee;
     font-family: 'Permanent Marker', cursive;
-}
-
-.header p{
-    font-family: 'Poppins', sans-serif;
+    border-radius: 5px/5px;
 }
 
 .header h1{
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     text-shadow: 2px 2px rgb(238, 44, 141),5px 5px #00adb5;
+    font-size: 3rem;
+}
+.header p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
 }
 
-.card-img{
-    width: 90%;
-    margin: 0 auto;
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
 }
 
-.mb-3{
-    background-color: #303841;
+.left{
+    flex-direction: column-reverse;
 }
 
-.col-sm-4{
-    padding: 3%;
+
+.img-block{
+    border-radius: 5px/5px;
     background-color: #ff5722;
+    width: 100%;
+    padding: 2.5% 0;
 }
 
-.col-sm-8{
-    background-color: #303841;
-    padding: 0;
-    border-color: #303841;
+.post-img{
+    width: 90%;
+    align-self: flex-start;
 }
 
-.inner1{
-    height: 100%;
-    width: 98%;
-    margin-left: 2%;
+
+.text-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #00adb5;
-    padding: 8% 3% 0;
+    width: 100%;
+    border-radius: 5px/5px;
+    padding: 2.5%;
+    margin-top: 0.5%;
 }
 
-.inner2{
-    height: 100%;
-    width: 98%;
-    margin-right: 2%;
-    background-color: #00adb5;
-    padding: 8% 3% 0;
+h2{
+    font-size: 2rem;
+    font-weight: 600;
 }
 
-
-
-.card-title{
-    margin-bottom: 3.5%;
-}
-
-.container{
-    margin-bottom: 50px;
-    padding: 0;
+p{  
+    font-size: 1rem;
 }
 
 .treats{
     background-color: #00adb5;
-    padding: 5%;
-    line-height: 3rem;
+    padding: 2%;
+    margin-top: 4vh;
+    border-radius: 5px/5px;
+    
 }
 
 .donate-btn{
     margin-top: 2.5%;
 }
 
-.footer{color: white; background-color: #303841; margin: 0 auto 0 auto; padding: 50px; line-height: 3; text-align: center;}
-.footer a{margin: auto 30px auto 30px; text-decoration: none; color:#547575;}
-.footer a:hover{color:white;}
-.footer p{margin-bottom: 0; color:white; font-size: 0.75rem;}
+.footer{
+    color: white;  
+    margin: 4% 0;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.footer a{
+    text-decoration: none; 
+    color:#547575;
+    margin: 2%;
+}
+.footer a:hover{
+    color:white;
+}
+.footer p{
+    margin-bottom: 0; color:white;
+     font-size: 0.75rem;
+    }
+
+
+@media (max-width: 320px) {
+
+    .header h1{
+        font-size: 2rem;
+    }
+    .header p{
+        font-size: 4vw;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 4vw;
+    }
+    
+}
+
+@media (orientation: landscape) {
+
+    .img-block{
+        width: 39%;
+    }
+    .text-block{
+        width: 60%;
+        margin-top: 0;
+    }
+    .post{
+        display: flex;
+        flex-direction: row;
+        align-items: unset;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    .left{
+        flex-direction: row;
+    }
+    .treats{
+        margin-top: 4%;
+    }
+    
+}
